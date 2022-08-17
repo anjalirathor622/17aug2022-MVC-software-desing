@@ -13,8 +13,7 @@ let adminController=(req, res)=>{
     friendsObj.save()
 
     .then(() =>
-        //
-        //c
+       
         res.status(200).json({
             msg: 'ok',
             name:req.query.name
